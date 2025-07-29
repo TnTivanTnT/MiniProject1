@@ -1,0 +1,24 @@
+[1.373s] Invoking command in '/home/ivan/Escritorio/MiniProyects/1/WS/src/Escritor': PYTHONPATH=/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Escritor build --build-base /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build install --record /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log --single-version-externally-managed install_data
+[1.797s] running egg_info
+[1.798s] writing ../../build/Escritor/Escritor.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/Escritor/Escritor.egg-info/dependency_links.txt
+[1.799s] writing entry points to ../../build/Escritor/Escritor.egg-info/entry_points.txt
+[1.799s] writing requirements to ../../build/Escritor/Escritor.egg-info/requires.txt
+[1.799s] writing top-level names to ../../build/Escritor/Escritor.egg-info/top_level.txt
+[1.803s] reading manifest file '../../build/Escritor/Escritor.egg-info/SOURCES.txt'
+[1.831s] writing manifest file '../../build/Escritor/Escritor.egg-info/SOURCES.txt'
+[1.831s] running build
+[1.832s] running build_py
+[1.832s] copying Escritor/NodoEscritor.py -> /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib/Escritor
+[1.832s] running install
+[1.833s] running install_lib
+[1.834s] copying /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib/Escritor/NodoEscritor.py -> /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor
+[1.835s] byte-compiling /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor/NodoEscritor.py to NodoEscritor.cpython-310.pyc
+[1.840s] running install_data
+[1.844s] running install_egg_info
+[1.845s] removing '/home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.848s] Copying ../../build/Escritor/Escritor.egg-info to /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor-0.0.0-py3.10.egg-info
+[1.848s] running install_scripts
+[1.884s] Installing NodoEscritor script to /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/Escritor
+[1.885s] writing list of installed files to '/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log'
+[1.973s] Invoked command in '/home/ivan/Escritorio/MiniProyects/1/WS/src/Escritor' returned '0': PYTHONPATH=/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Escritor build --build-base /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build install --record /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log --single-version-externally-managed install_data

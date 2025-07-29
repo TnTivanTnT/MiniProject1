@@ -1,0 +1,34 @@
+[0.760s] Invoking command in '/home/ivan/Escritorio/MiniProyects/1/WS/src/Escritor': PYTHONPATH=/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Escritor build --build-base /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build install --record /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log --single-version-externally-managed install_data
+[1.054s] running egg_info
+[1.055s] creating ../../build/Escritor/Escritor.egg-info
+[1.055s] writing ../../build/Escritor/Escritor.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../../build/Escritor/Escritor.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/Escritor/Escritor.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/Escritor/Escritor.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/Escritor/Escritor.egg-info/top_level.txt
+[1.056s] writing manifest file '../../build/Escritor/Escritor.egg-info/SOURCES.txt'
+[1.058s] reading manifest file '../../build/Escritor/Escritor.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../build/Escritor/Escritor.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.060s] running build_py
+[1.060s] creating /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build
+[1.060s] creating /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib
+[1.060s] creating /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib/Escritor
+[1.060s] copying Escritor/__init__.py -> /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib/Escritor
+[1.060s] running install
+[1.061s] running install_lib
+[1.062s] creating /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor
+[1.062s] copying /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build/lib/Escritor/__init__.py -> /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor
+[1.063s] byte-compiling /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor/__init__.py to __init__.cpython-310.pyc
+[1.063s] running install_data
+[1.063s] creating /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/share/ament_index
+[1.063s] creating /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/share/ament_index/resource_index
+[1.063s] creating /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/share/ament_index/resource_index/packages
+[1.064s] copying resource/Escritor -> /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/share/ament_index/resource_index/packages
+[1.064s] copying package.xml -> /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/share/Escritor
+[1.064s] running install_egg_info
+[1.066s] Copying ../../build/Escritor/Escritor.egg-info to /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages/Escritor-0.0.0-py3.10.egg-info
+[1.067s] running install_scripts
+[1.091s] Installing writer_node script to /home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/Escritor
+[1.092s] writing list of installed files to '/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log'
+[1.133s] Invoked command in '/home/ivan/Escritorio/MiniProyects/1/WS/src/Escritor' returned '0': PYTHONPATH=/home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Escritorio/MiniProyects/1/WS/install/Escritor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Escritor build --build-base /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/build install --record /home/ivan/Escritorio/MiniProyects/1/WS/build/Escritor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Escritor/Escritor.egg-info/PKG-INFO
+../../build/Escritor/Escritor.egg-info/SOURCES.txt
+../../build/Escritor/Escritor.egg-info/dependency_links.txt
+../../build/Escritor/Escritor.egg-info/entry_points.txt
+../../build/Escritor/Escritor.egg-info/requires.txt
+../../build/Escritor/Escritor.egg-info/top_level.txt
+../../build/Escritor/Escritor.egg-info/zip-safe
+Escritor/NodoEscritor.py
+Escritor/__init__.py
+resource/Escritor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
