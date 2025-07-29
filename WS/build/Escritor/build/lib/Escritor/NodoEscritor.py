@@ -145,6 +145,52 @@ class NodoEscritor(Node):
 		self.teleport(self.posicion_inicial, 5.5, 0.0) # Rango de la tortuga (0.0,11.0) No usar los valores límites
 
 
+	def draw_B(self):
+			# Vertical
+			self.move(0.0, velocidad_angular, tiempo_movimiento)	
+			self.move(velocidad_lineal, 0.0, 1.05*tiempo_movimiento)
+			
+			# Mini horizontal
+			self.move(0.0, -velocidad_angular, tiempo_movimiento)	
+			self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)	
+
+			# Curva
+			self.move(velocidad_lineal/2, -velocidad_angular, 2*tiempo_movimiento)
+			self.move(0.0, 2*velocidad_angular, tiempo_movimiento)
+			self.move(velocidad_lineal/2, -velocidad_angular, 2*tiempo_movimiento)
+
+			# Mini horizontal
+			self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)
+			self.tp()
+
+	def draw_C(self):
+		self.teleport(self.posicion_actual + 0.7, 6.7, 3.1416)
+
+		# Curva
+		self.move(velocidad_lineal, velocidad_angular, 2*tiempo_movimiento)
+
+		self.tp()
+
+	def draw_E(self):
+		# Vertical
+		self.move(0.0, velocidad_angular, tiempo_movimiento)	
+		self.move(velocidad_lineal, 0.0, 1.05*tiempo_movimiento)
+		
+		# Horizontal
+		self.move(0.0, -velocidad_angular, tiempo_movimiento)	
+		self.move(velocidad_lineal/2, 0.0, tiempo_movimiento)	
+		
+		self.teleport(self.posicion_actual, 6.1, 0.0)
+		
+		# Mini horizontal
+		self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)
+		self.teleport(self.posicion_actual, 5.5, 0.0)
+
+		# Horizontal
+		self.move(velocidad_lineal/2, 0.0, tiempo_movimiento)	
+
+		self.tp()
+
 	def draw_R(self):
 		# Vertical
 		self.move(0.0, velocidad_angular, tiempo_movimiento)	
@@ -176,45 +222,6 @@ class NodoEscritor(Node):
 
 		self.tp()
 
-	def draw_B(self):
-		# Vertical
-		self.move(0.0, velocidad_angular, tiempo_movimiento)	
-		self.move(velocidad_lineal, 0.0, 1.05*tiempo_movimiento)
-		
-		# Mini horizontal
-		self.move(0.0, -velocidad_angular, tiempo_movimiento)	
-		self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)	
-
-		# Curva
-		self.move(velocidad_lineal/2, -velocidad_angular, 2*tiempo_movimiento)
-		self.move(0.0, 2*velocidad_angular, tiempo_movimiento)
-		self.move(velocidad_lineal/2, -velocidad_angular, 2*tiempo_movimiento)
-
-		# Mini horizontal
-		self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)
-		self.tp()
-
-	
-	def draw_E(self):
-		# Vertical
-		self.move(0.0, velocidad_angular, tiempo_movimiento)	
-		self.move(velocidad_lineal, 0.0, 1.05*tiempo_movimiento)
-		
-		# Horizontal
-		self.move(0.0, -velocidad_angular, tiempo_movimiento)	
-		self.move(velocidad_lineal/2, 0.0, tiempo_movimiento)	
-		
-		self.teleport(self.posicion_actual, 6.1, 0.0)
-		
-		# Mini horizontal
-		self.move(velocidad_lineal/4, 0.0, tiempo_movimiento)
-		self.teleport(self.posicion_actual, 5.5, 0.0)
-
-		# Horizontal
-		self.move(velocidad_lineal/2, 0.0, tiempo_movimiento)	
-
-		self.tp()
-
 	def draw_S(self):
 		self.teleport(self.posicion_actual + 0.1, 5.5, 0.0)
 
@@ -224,14 +231,6 @@ class NodoEscritor(Node):
 
 		self.tp()
 		
-	def draw_C(self):
-		self.teleport(self.posicion_actual + 0.7, 6.7, 3.1416)
-
-		# Curva
-		self.move(velocidad_lineal, velocidad_angular, 2*tiempo_movimiento)
-
-		self.tp()
-
 	def draw_U(self):
 		self.teleport(self.posicion_actual + 0.01, 6.7, -3.1416/2)
 
