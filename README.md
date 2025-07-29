@@ -1,5 +1,4 @@
-
-#MiniProject1
+# MiniProject1
 
 Pasos para iniciarlo.
 
